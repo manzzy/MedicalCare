@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_tip"
+        android:icon="@drawable/tips"
+        android:title="@string/nav_tip" />
+    <item
+        android:id="@+id/nav_diagnosis"
+        android:icon="@drawable/diagnosis"
+        android:title="@string/nav_test" />
+    <item
+        android:id="@+id/nav_firstaid"
+        android:icon="@drawable/ic_alarm"
+        android:title="@string/nav_alarm" />
+</menu>

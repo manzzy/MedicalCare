@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Medical Care</string>
+    <string name="nav_tip">Tip</string>
+    <string name="nav_test">Diagnosis</string>
+    <string name="nav_firstaid">First Aid</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_alarm">Medicne Alarm</string>
+
+</resources>

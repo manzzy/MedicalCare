@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.DiagnosisFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What are you feeling ?"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textSize="26sp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Head Ache"
+            android:textSize="17sp"
+            android:id="@+id/headache"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nausea"
+            android:textSize="17sp"
+            android:id="@+id/nausea"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cough"
+            android:textSize="17sp"
+            android:id="@+id/cough"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fever"
+            android:textSize="17sp"
+            android:id="@+id/fever"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abdominal Pain"
+            android:textSize="17sp"
+            android:id="@+id/abdominal_pain"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diarrhea"
+            android:textSize="17sp"
+            android:id="@+id/diarrhea"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shortness of breath"
+            android:textSize="17sp"
+            android:id="@+id/breath"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Increased Thrist"
+            android:textSize="17sp"
+            android:id="@+id/thrist"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frequent urination"
+            android:textSize="17sp"
+            android:id="@+id/urination"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extreme hunger and Unexplained weight loss"
+            android:textSize="15sp"
+            android:id="@+id/hunger"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Sumbit"
+            android:layout_marginTop="55dp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"
+            android:outlineAmbientShadowColor="@color/colorPrimary"
+            android:id="@+id/submit"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/result"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>
